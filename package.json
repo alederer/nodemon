@@ -19,6 +19,9 @@
     "scripts": {
     "test": "mocha --ui bdd --reporter spec  ./test/*.js"
     },
+    "dependencies": {
+      "graceful-fs": "*"
+    },
     "devDependencies": {
       "connect": "*",
       "mocha": "~1.9.0",
