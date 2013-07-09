@@ -2,7 +2,7 @@
 
 "use strict";
 
-var fs = require('fs'),
+var fs = require('graceful-fs'),
     util = require('util'),
     childProcess = require('child_process'),
     dirs = [],
